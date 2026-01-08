@@ -27,7 +27,7 @@ async def startup():
         if not user:
             admin = User(
                 email="admin@example.com",
-                hashed_password=hash_password("admin123")
+                hashed_password=hash_password("admin")
             )
             session.add(admin)
             await session.commit()
