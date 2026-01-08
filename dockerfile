@@ -11,8 +11,6 @@ RUN apt-get update && apt-get install -y \
     libpq-dev \
     && rm -rf /var/lib/apt/lists/*
 
-# ---- Working directory ----
-WORKDIR /app
 
 # ---- Install Python dependencies ----
 COPY requirements.txt .
