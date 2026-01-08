@@ -3,7 +3,7 @@ from app.api.routes import auth, documents
 from app.core.database import engine
 from app.models import user, document
 from sqlalchemy import select
-from app.models.user import User
+from app.models.user import User,Base
 from app.core.security import hash_password
 app = FastAPI()
 
