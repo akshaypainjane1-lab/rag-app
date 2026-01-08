@@ -5,3 +5,4 @@ asyncpg
 python-jose
 passlib[bcrypt]
 pydantic
+psycopg2
